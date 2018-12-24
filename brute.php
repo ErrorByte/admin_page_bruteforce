@@ -48,6 +48,6 @@ continue;
 echo "\nResult : \n\n";
 echo $result;
 } else {
-echo "\nMasukkin Target Nya Sama File List Nya Anjenkkk\n";
+echo "\nMasukkin Target Nya Anjenkkk\n";
 }
 ?>

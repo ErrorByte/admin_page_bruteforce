@@ -10,8 +10,8 @@ echo "\r
 ##########################
 \n";
 $vic = $argv[1];
-$list = file_get_contents($argv[2]);
-if(!empty($argv[1]) && !empty($argv[2])) {
+$list = file_get_contents("list.txt");
+if(!empty($argv[1])) {
 $page = explode("\n", $list);
 foreach($page as $cok){
 if(!empty($cok)) {
